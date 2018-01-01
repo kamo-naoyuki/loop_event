@@ -11,7 +11,6 @@ A python profiler for many passings
     handler.setLevel(logging.DEBUG)
     logger.setLevel(logging.DEBUG)
     logger.addHandler(handler)
-    logger.debug('a')
 
     p = LoopProfiler(logger=logger)
     for _ in range(1000):

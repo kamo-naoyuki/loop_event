@@ -17,7 +17,7 @@ class TimeInfo(NamedTuple):
     lineno: int
 
 
-class LoopProfiler:
+class LoopEvent:
     def __init__(self,
                  interval: float=3.,
                  maxlogs=100,

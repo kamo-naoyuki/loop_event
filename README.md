@@ -4,7 +4,7 @@ A python measurement between events passing through these events many times.
 
 ```python
     import logging
-    from loop_profiler import LoopProfiler
+    from loop_event import LoopProfiler
 
     logger = logging.getLogger(__name__)
     handler = logging.StreamHandler()

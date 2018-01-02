@@ -1,5 +1,5 @@
-# loop_profiler
-A python profiler for many passings
+# Loop Event
+A python measurement between events passing through these events many times.
 
 
 ```python
@@ -12,7 +12,7 @@ A python profiler for many passings
     logger.setLevel(logging.DEBUG)
     logger.addHandler(handler)
 
-    p = LoopProfiler(logger=logger)
+    p = LoopEvent(logger=logger)
     for _ in range(1000):
         p.record('A')
         time.sleep(0.01)
